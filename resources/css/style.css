@@ -362,7 +362,11 @@ footer .copyright {
 /* MEDIA QUERY FOR SCREENS SMALLER THAN 450px */
 @media only screen and (max-width: 580px) {
   #sign-up-section {
-    height: 20rem;
+    height: 10rem;
+  }
+
+  #sign-up-cta {
+    padding: 0;
   }
 
   #sign-up-cta h1 {
@@ -402,5 +406,9 @@ footer .copyright {
 @media only screen and (max-width: 336px){
   nav li {
     padding-left: 1rem;
+  }
+
+  #sign-up-cta .content {
+    width: 26rem;
   }
 }
